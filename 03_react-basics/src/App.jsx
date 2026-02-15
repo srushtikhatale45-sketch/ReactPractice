@@ -1,9 +1,19 @@
 import React from 'react'
+import Home from './components/Home';
+import FirstComponent from './components/FirstComponent';
 
-function App() {
+const App=()=>{
+  // rfce
+  // raf
+  //rfc
+  const names = ["Srushti","abc","xyz","hgjf"];
+
   return (
-    <div>App</div>
-  )
+    <div>
+     <Home namesProps={names}/>
+     <FirstComponent/>
+    </div>
+  );
 }
 
 export default App
